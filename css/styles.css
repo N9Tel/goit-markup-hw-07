@@ -441,8 +441,10 @@ img {
 
 
 /* Наша команда */
-.section-about {
+.section-team {
     background-color: var(--add-bg-color);
+    padding-top: 94px;
+        padding-bottom: 94px;
     margin-top: 0;
     margin-bottom: 0;
 } 
@@ -452,13 +454,13 @@ img {
     
 }
 
-.team-list {
+.section-team__list {
     display: flex;
     gap: 30px;
     padding: 0;
 }
 
-.team-item {
+.section-team__item {
     background-color: var(--main-bg-color);
     box-shadow: 0px 1px 1px
     rgba(0, 0, 0, 0.12),
@@ -469,7 +471,35 @@ img {
   
 }
 
-.social-list {
+.section-team__text {
+
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+.section-team__name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(19/16);
+    letter-spacing: 0.03em;
+    color: var(--header-color);
+    margin: 0;
+    margin-bottom: 10px;
+
+}
+
+.section-team__subtext {
+    font-size: 16px;
+    line-height: calc(19/16);
+    letter-spacing: 0.03em;
+    margin-top: 0;
+    margin-bottom: 16;
+
+}
+
+.list {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -479,14 +509,14 @@ img {
 
 
 
-.social-item {
+.list__item {
     display: inline-block;
     margin: 0;
     
     
 }
 
-.social-link {
+.list__link {
     display: flex;
     align-items: center;
         justify-content: center;
@@ -495,6 +525,7 @@ img {
      height: 44px; 
     border-radius: 50%;   
      gap: 10px; 
+
      transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 250ms,
      fill 250ms cubic-bezier(0.4, 0, 0.2, 1) 250ms;
     
@@ -503,8 +534,8 @@ img {
 
 }
 
-.social-link:hover,
-.social-link:focus {
+.list__link:hover,
+.list__link:focus {
     fill: var(--txt-color);
     background-color: var(--accent-color);
 
@@ -513,35 +544,6 @@ img {
 
 
 
-.team {
-        font-weight: 500;
-        font-size: 16px;
-        line-height: calc(19/16);
-        letter-spacing: 0.03em;
-        color: var(--header-color);
-        margin: 0;
-        margin-bottom: 10px;
-        
-}
-
-
-
-.team-text {
-   
-text-align: center;
- padding-top: 30px;
- padding-bottom: 30px;  
-
-}
-
-.team-subtitle {
-    font-size: 16px;
-    line-height: calc(19/16);
-    letter-spacing: 0.03em;
-    margin-top: 0;
-         margin-bottom: 16; 
-         
-}
 
 
 
