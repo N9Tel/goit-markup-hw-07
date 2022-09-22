@@ -307,10 +307,15 @@ img {
 }
 
 
-/* Feature */
+/* Feature */ 
+
+.section-feature {
+   padding-top: 94px;
+   padding-bottom: 94px;
+}
 
 
-.feature-list {
+.section-feature__list {
     padding: 0;
     margin: 0;
     display: flex;
@@ -319,11 +324,11 @@ img {
 
 
 
-.feature-item :not(:nth-last-child) {
+.section-feature__item :not(:nth-last-child) {
     margin-right: 30px;
 }
 
-.feature-btn {
+.section-feature__content {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -338,7 +343,7 @@ img {
     
 }
 
-.features {
+.section-feature__title {
         font-weight: 700;
         font-size: 14px;
         line-height: calc(16/14);
@@ -363,7 +368,7 @@ img {
 
 }
 
-.subtitle {
+.section-feature__text {
     font-size: 14px;
     line-height: calc(24/14);
     letter-spacing: 0.03em;
