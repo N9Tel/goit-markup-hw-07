@@ -312,13 +312,12 @@ img {
 
 /* Feature */
 
-.section-feature {
+.section {
     padding-top: 94px;
     padding-bottom: 94px;
 }
 
-
-.section-feature__list {
+.section__list {
     padding: 0;
     margin: 0;
     display: flex;
@@ -327,11 +326,11 @@ img {
 
 
 
-.section-feature__item :not(:nth-last-child) {
+.section__item :not(:nth-last-child) {
     margin-right: 30px;
 }
 
-.section-feature__content {
+.section__content {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -341,12 +340,9 @@ img {
     border-radius: 4px;
     background-color: var(--add-bg-color);
     margin-bottom: 30px;
-
-
-
 }
 
-.section-feature__title {
+.section__title {
     font-weight: 700;
     font-size: 14px;
     line-height: calc(16/14);
@@ -357,6 +353,28 @@ img {
     margin-bottom: 10px;
     padding: 0;
 }
+
+
+
+.section__text {
+    font-size: 14px;
+    line-height: calc(24/14);
+    letter-spacing: 0.03em;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+/* Чим ми займаємося */
+
+
+.section-work {
+
+    padding-top: 0;
+    padding-bottom: 94px;
+
+}
+
 
 .title {
     font-weight: 700;
@@ -371,24 +389,6 @@ img {
 
 }
 
-.section-feature__text {
-    font-size: 14px;
-    line-height: calc(24/14);
-    letter-spacing: 0.03em;
-    margin-top: 0;
-    margin-bottom: 0;
-
-}
-
-/* Чим ми займаємося */
-
-.section-work {
-
-    padding-top: 0;
-    padding-bottom: 94px;
-
-
-}
 
 .section-work__list {
     display: flex;
@@ -596,7 +596,7 @@ img {
 .client-link:focus {
     fill: var(--accent-color);
     border: 1px solid var(--accent-color);
-    ;
+   
 }
 
 
@@ -653,15 +653,9 @@ address {
     margin-bottom: 9px;
 }
 
-
-
-.link-footer:hover,
-.link-footer:focus {
-    color: var(--accent-color);
-    text-decoration: none;
+.footer-item :not(:nth-last-child) {
+    margin-bottom: 9px;
 }
-
-
 
 .link-footer {
     display: block;
@@ -674,10 +668,14 @@ address {
 
 }
 
-
-.footer-item :not(:nth-last-child) {
-    margin-bottom: 9px;
+.link-footer:hover,
+.link-footer:focus {
+    color: var(--accent-color);
+    text-decoration: none;
 }
+
+
+
 
 .social {
     margin-left: 70px;
@@ -765,7 +763,7 @@ address {
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 200ms;
 }
 
-.subscribe-field::placeholder {
+/* .subscribe-field::placeholder {
 
     top: 15px;
     left: 16px;
@@ -775,7 +773,7 @@ address {
     line-height: calc(20/16);
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
-}
+} */
 
 .subscribe-field:hover,
 .subscribe-field:focus {

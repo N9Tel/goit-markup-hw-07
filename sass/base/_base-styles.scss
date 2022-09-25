@@ -1,6 +1,6 @@
 body {
-    color: var(--main-txt-color);
-    background-color: var(--main-bg-color);
+    color: $main-txt-color: #757575;
+    background-color: $main-bg-color: #ffffff;
     font-family: 'Roboto';
     font-size: 14px;
     line-height: calc(24/14);
@@ -32,4 +32,43 @@ img {
     display: block;
     max-width: 100%;
     height: auto;
+}
+
+link {
+    text-decoration: none;
+}
+
+.section-hero,
+.section-footer {
+    background-color: $section-bg-color;
+    color: $txt-color;
+}
+
+.button {
+    display: block;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(30/16);
+    letter-spacing: 0.06em;
+    text-align: center;
+    background-color: $accent-color;
+    color: $txt-color;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
