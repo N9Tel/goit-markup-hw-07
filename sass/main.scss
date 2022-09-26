@@ -1,3 +1,4 @@
+@import './utils/normalize';
 @import './utils/variables';
 @import './base/base-styles';
 @import './base/reset';
@@ -19,7 +20,8 @@
 @import './components/modal-form';
 @import './components/checbox';
 @import './components/btn-form';
-
+@import './components/buttons-group';
+@import './components/card-group';
 
  
 
