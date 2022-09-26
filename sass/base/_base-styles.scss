@@ -1,6 +1,6 @@
 body {
-    color: $main-txt-color: #757575;
-    background-color: $main-bg-color: #ffffff;
+    color: $main-text-color;
+    background-color: $main-background-color;
     font-family: 'Roboto';
     font-size: 14px;
     line-height: calc(24/14);
@@ -40,8 +40,8 @@ link {
 
 .section-hero,
 .section-footer {
-    background-color: $section-bg-color;
-    color: $txt-color;
+    background-color: $section-background-color;
+    color: $text-color;
 }
 
 .button {
@@ -53,7 +53,7 @@ link {
     letter-spacing: 0.06em;
     text-align: center;
     background-color: $accent-color;
-    color: $txt-color;
+    color: $text-color;
     border: 1px solid transparent;
     border-radius: 4px;
     cursor: pointer;
