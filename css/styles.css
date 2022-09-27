@@ -1,15 +1,15 @@
 :root {
     /* Текстові кольори */
-    --main-txt-color: #757575;
+    --main-text-color: #757575;
     --header-color: #212121;
     --accent-color: #2196F3;
-    --txt-color: #FFFFFF;
+    --text-color: #FFFFFF;
     --add-color: rgba(255, 255, 255, 0.6);
 
     /* Фонові кольри */
-    --main-bg-color: #FFFFFF;
-    --section-bg-color: #2F303A;
-    --add-bg-color: #F5F4FA;
+    --main-background-color: #FFFFFF;
+    --section-background-color: #2F303A;
+    --add-background-color: #F5F4FA;
 
     /* Інше */
     --animation: 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -19,8 +19,8 @@
 
 /* Стилі для index.html */
 body {
-    color: var(--main-txt-color);
-    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
+    background-color: var(--main-background-color);
     font-family: 'Roboto';
     font-size: 14px;
     line-height: calc(24/14);
@@ -196,7 +196,7 @@ img {
 
 
 .link-mail {
-    color: var(--main-txt-color);
+    color: var(--main-text-color);
     text-decoration: none;
     font-weight: 500;
     line-height: calc(16/14);
@@ -211,7 +211,7 @@ img {
 
 
 .link-tel {
-    color: var(--main-txt-color);
+    color: var(--main-text-color);
     font-weight: 500;
     line-height: calc(16/14);
     letter-spacing: 0.02em;
@@ -274,7 +274,7 @@ img {
     line-height: calc(60/44);
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: var(--txt-color);
+    color: var(--text-color);
     margin-right: auto;
     margin-left: auto;
     width: 696px;
@@ -286,13 +286,13 @@ img {
 
 .section-hero,
 .section-footer {
-    background-color: var(--section-bg-color);
-    color: var(--txt-color);
+    background-color: var(--section-background-color);
+    color: var(--text-color);
 }
 
 .button {
     background-color: var(--accent-color);
-    color: var(--txt-color);
+    color: var(--text-color);
     font-family: inherit;
     font-weight: 700;
     font-size: 16px;
@@ -338,7 +338,7 @@ img {
     height: 120px;
     border: transparent;
     border-radius: 4px;
-    background-color: var(--add-bg-color);
+    background-color: var(--add-background-color);
     margin-bottom: 30px;
 }
 
@@ -434,7 +434,7 @@ img {
     line-height: calc(16/14);
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--txt-color);
+    color: var(--text-color);
 
 
 }
@@ -445,7 +445,7 @@ img {
 
 /* Наша команда */
 .section-team {
-    background-color: var(--add-bg-color);
+    background-color: var(--add-background-color);
     padding-top: 94px;
     padding-bottom: 94px;
     margin-top: 0;
@@ -464,7 +464,7 @@ img {
 }
 
 .section-team__item {
-    background-color: var(--main-bg-color);
+    background-color: var(--main-background-color);
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
         0px 4px 4px rgba(0, 0, 0, 0.06),
         1px 4px 6px rgba(0, 0, 0, 0.16);
@@ -536,7 +536,7 @@ img {
 
 .list__link:hover,
 .list__link:focus {
-    fill: var(--txt-color);
+    fill: var(--text-color);
     background-color: var(--accent-color);
 
 
@@ -633,7 +633,7 @@ img {
     font-size: 26px;
     line-height: calc(31/26);
     letter-spacing: 0.03em;
-    color: var(--txt-color);
+    color: var(--text-color);
     text-decoration: none;
     margin-top: 20px;
 
@@ -675,10 +675,10 @@ address {
 }
 
 
-
+       /* Соціальні мережі  */                                                                                                                               оціальні мережі
 
 .social {
-    margin-left: 70px;
+    margin-left: 70px; 
 
 }
 
@@ -693,15 +693,14 @@ address {
 }
 
 .social-link-f {
-    display: flex;
+     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; 
     width: 44px;
     height: 44px;
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
-    display: flex;
-    fill: var(--txt-color);
+    fill: var(--text-color);
 
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 200ms;
 
@@ -755,7 +754,7 @@ address {
     font-size: 16px;
     line-height: calc(20/16);
     letter-spacing: 0.03em;
-    background-color: var(--section-bg-color);
+    background-color: var(--section-background-color);
     border: 1px solid rgba(255, 255, 255, 0.6);
     border-radius: 4px;
     color: rgba(255, 255, 255, 0.6);
@@ -763,17 +762,7 @@ address {
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 200ms;
 }
 
-/* .subscribe-field::placeholder {
 
-    top: 15px;
-    left: 16px;
-
-    font-weight: 400;
-    font-size: 16px;
-    line-height: calc(20/16);
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
-} */
 
 .subscribe-field:hover,
 .subscribe-field:focus {
@@ -801,7 +790,7 @@ address {
     letter-spacing: 0.06em;
 
     background-color: var(--accent-color);
-    color: var(--txt-color);
+    color: var(--text-color);
     border: none;
     border-radius: 4px;
 
@@ -822,7 +811,7 @@ address {
 
     padding: 0;
 
-    fill: var(--txt-color)
+    fill: var(--text-color)
 }
 
 
@@ -878,7 +867,7 @@ address {
     right: 8px;
     cursor: pointer;
     fill: var(--header-color);
-    background-color: var(--main-bg-color);
+    background-color: var(--main-background-color);
     border: 1px solid rgba(0, 0, 0, 0.1);
 
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 250ms,
@@ -1114,7 +1103,7 @@ address {
     margin-top: 22px;
     margin-left: auto;
     background-color: var(--accent-color);
-    color: var(--txt-color);
+    color: var(--text-color);
     cursor: pointer;
     border: none;
     border-radius: 4px;
@@ -1178,7 +1167,7 @@ address {
 
 .c-button {
 
-    background-color: var(--add-bg-color);
+    background-color: var(--add-background-color);
     color: var(--header-color);
     font-family: inherit;
     font-weight: 500;
@@ -1210,7 +1199,7 @@ address {
 .c-button:hover,
 .c-button:focus {
     background-color: var(--accent-color);
-    color: var(--txt-color);
+    color: var(--text-color);
 }
 
 .flex-container {
@@ -1271,7 +1260,7 @@ address {
 .flex-link {
     display: block;
     text-decoration: none;
-    color: var(--main-txt-color);
+    color: var(--main-text-color);
 
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -1315,7 +1304,7 @@ address {
     font-size: 18px;
     line-height: calc(28/18);
     letter-spacing: 00.03em;
-    color: var(--txt-color);
+    color: var(--text-color);
 }
 
 .pr-title {
