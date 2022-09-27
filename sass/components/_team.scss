@@ -1,7 +1,5 @@
-.section-team {
-    background-color: $add-background-color;
-    padding-top: 94px;
-    padding-bottom: 94px;
+.section team {
+    background-color: $add-background-color;   
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -10,24 +8,24 @@
     justify-content: space-evenly;
 }
 
-.section-team__list {
+.team__list {
     display: flex;
     gap: 30px;
     padding: 0;
 }
 
-.section-team__item {
+.team__item {
     background-color: $main-background-color;
     box-shadow: $box-shadow;
 }
 
-.section-team__text {
+.team__text {
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
-.section-team__name {
+.team__name {
     font-weight: 500;
     font-size: 16px;
     line-height: calc(19/16);
@@ -37,7 +35,7 @@
     margin-bottom: 10px;
 }
 
-.section-team__subtext {
+.team__subtext {
     font-size: 16px;
     line-height: calc(19/16);
     letter-spacing: 0.03em;
@@ -69,10 +67,12 @@
 
     transition: background-color $animation,
     fill $animation;
+
+    &:hover,
+     &:focus {
+         fill: $text-color;
+         background-color: $accent-color;
+        }
 }
-.list__link:hover,
-.list__link:focus {
-    fill: $text-color;
-    background-color: $accent-color;
-}
+
 

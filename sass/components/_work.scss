@@ -1,4 +1,4 @@
-.section-work {
+.work {
     padding-top: 0;
     padding-bottom: 94px;
 }
@@ -15,18 +15,18 @@
     margin-bottom: 50px;
 }
 
-.section-work__list {
+.work__list {
     display: flex;
     gap: 30px;
     padding: 0;
 }
 
-.section-work__item,
-.section-work__image {
+.work__item,
+.work__image {
     position: relative;
 }
 
-.section-work__card {
+.work__card {
     position: absolute;
     width: 370px;
     height: 70px;
@@ -36,7 +36,7 @@
     left: 0;
 }
 
-.section-work__card-title {
+.work__card-title {
     margin-top: 27px;
     padding: 0;
     display: flex;

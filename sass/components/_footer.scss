@@ -1,4 +1,4 @@
-.section-footer {
+.footer {
     margin-top: 0;
     margin-bottom: 0;
     padding-top: 60px;
@@ -47,6 +47,11 @@ address {
     line-height: calc(24/14);
 
     transition: color $animation;
+
+    &:hover,
+    &:focus {
+        color: $accent-color;
+    }
 }
 
 
