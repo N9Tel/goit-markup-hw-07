@@ -37,15 +37,16 @@
 
 }
 
+.project-thumb {
+    position: relative;
+    overflow: hidden;
+}
 
 .flex-item {
     margin: 0;
 }
 
-.project-thumb {
-    position: relative;
-    overflow: hidden;
-}
+
 
 .overlay-desc {
     position: absolute;
@@ -66,6 +67,14 @@
     line-height: calc(28/18);
     letter-spacing: 00.03em;
     color: $text-color;
+}
+
+.description {
+
+    border: 1px solid #ECECEC;
+    border-top: none;
+    padding: 20px 24px;
+
 }
 
 .pr-title {

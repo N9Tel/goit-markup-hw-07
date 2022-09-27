@@ -1,11 +1,8 @@
-@import './utils/normalize';
-@import './utils/variables';
-@import './base/base-styles';
-@import './base/reset';
-@import './components/page-header';
-@import './components/navigation';
-@import './components/hero';
-
-
- 
-
+body {
+    color: $main-text-color;
+    background-color: $main-background-color;
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: calc(24/14);
+    letter-spacing: 0.03em;
+}
