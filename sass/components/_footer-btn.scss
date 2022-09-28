@@ -24,12 +24,12 @@
 
     &:hover,
     &:focus {
-        border-color: white;
+        border-color: $text-color;
     }
 
 }
 
 .icon-subscribe {
     padding: 0;
-    fill: var(--txt-color)
+    fill: $text-color;
 }
